@@ -1,0 +1,139 @@
+@charset "UTF-8";
+h1{
+	background:#417690;
+	color:#f5dd5d;
+	padding:30px 10px;
+	margin:0;
+}
+body{
+	background:#121212;
+	padding:0;
+	margin:0;
+	
+}
+.cinsite{
+	width:600px;
+	color:white;
+	padding:0 15px;
+}
+.cinsite_1{
+	width:100%;
+	color:white;
+	padding:0 15px;
+}
+.add_course{
+	background:#333333;
+	padding:8px 20px;
+	border-radius: 25px;
+	color:white;
+}
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top:10px;
+}
+
+#customers td, #customers th {
+  /*border: 1px solid #ddd;*/
+  padding: 8px;
+}
+
+#customers tr:nth-child(odd){background-color: #212121;}
+
+/*#customers tr:hover {background-color: #ddd;}*/
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #417690;;
+  color: white;
+}
+#customers a {
+  text-decoration:none;
+  color: white;
+}
+.course{
+	width:25%;
+	}
+.add_course_details{
+	width:75%;
+	min-height:500px;
+	color:white;
+	padding:0px 50px;
+	
+	/*background:white;*/
+	float:right;
+	
+}
+.form-group{
+	border-bottom: 4px solid #161616;
+	margin-bottom:20px;
+	padding:0 0 20px 0;
+	display:flex;
+}
+.form-group label{
+	font-size:14px;
+	font-weight:600;
+	float:left;
+	width:180px;
+}
+.form-group input,select{
+	margin-left:0;
+	width:300px;
+	background:none;
+	outline:none;
+	color:white;
+	height:24px;
+	padding-left:10px
+}
+.form-group select{
+	
+	width:316px;
+	
+	height:28px;
+	
+}
+.form-button{
+	position: absolute;
+	text-align:center;
+	background:#212121;
+	display:block;
+	width:66%;
+	padding:10px;
+}
+.form-button input{
+	background:#417690;
+	font-size:22px;
+	color:white;
+	border:none;
+	outline:none;
+	border-radius:5px;
+	padding:10px;
+	width:50%;
+}
+
+.table-form select{
+	background:none;
+	font-size:16px;
+	padding:4px 8px;
+	color:white;
+	border-radius:4px;
+	border:1px solid grey;
+}
+.table-form select option{
+	background:none;
+	
+}
+.table-form input[type="submit"]{
+	background:none;
+	font-size:16px;
+	padding:4px 8px;
+	color:white;
+	outline:none;
+	border-style:none;
+	box-sizing:border-box;
+	border-radius:4px;
+	border:1px solid grey;
+}
